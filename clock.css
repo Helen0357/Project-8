@@ -1,0 +1,83 @@
+* {
+    margin: 0;  
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+}
+.clock {
+    width:80%;
+    margin: 20px auto;
+    padding:15px;
+    text-align: center;
+}
+.clock h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15%;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 10px 10px 10px rgb(253, 183, 195) , 4px 5px 10px pink , 2px 4px 10px skyblue , 5px 3px 10px rgb(253, 253, 57);
+}
+.clock .time {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 80px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.clock .time .box  {
+  width: 200px;
+    color: white;
+    font-weight: bold;
+      -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+      overflow: hidden;
+
+}
+.clock .time .box h4 {
+    padding: 10px 20px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.clock .time .box p {
+  margin: 35px auto;
+  font-size: 4em;
+    
+}
+.clock .time .hour {
+background-color: pink;
+}
+
+.clock .time .hour h4 {
+background-color: pink;
+filter: brightness(95%);
+}
+.clock .time .minute {
+    background-color: rgb(253, 253, 57);
+}
+.clock .time .minute h4 {
+    background-color: rgb(253, 253, 57);
+filter: brightness(95%);
+}
+.clock .time .second {
+    background-color: skyblue;
+}
+.clock .time .second h4{
+    background-color: skyblue;
+filter: brightness(95%);
+
+}
+.clock .time .period {
+    background-color: rgb(83, 238, 83);
+}
+.clock .time .period h4 {
+    background-color: rgb(83, 238, 83);
+filter: brightness(95%);
+
+
+}
